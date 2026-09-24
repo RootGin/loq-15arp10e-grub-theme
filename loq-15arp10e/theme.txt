@@ -1,0 +1,43 @@
+# Main options
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "xos4 Terminus Regular 20"
+terminal-left: "2%"
+terminal-top: "3%"
+terminal-width: "56%"
+terminal-height: "94%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu { 
+  left = 5% 
+  top = 27% 
+  width = 39% 
+  height = 35% 
+  item_font = "Noto Sans Regular 24" 
+  item_color = "#b8b8b8" 
+  selected_item_color = "#eeeeee" 
+  icon_width = 34 
+  icon_height = 34 
+  item_icon_space = 14 
+  item_height = 50 
+  item_padding = 2 
+  item_spacing = 10 
+  selected_item_pixmap_style = "select_*.png" 
+}
+
+# Countdown label
+# You can change the name of default starting OS here
++ label {
+  left = 5%
+  top = 62%
+  width = 35%
+  align = "left"
+
+  id = "__timeout__"
+  text = "Automatically booting in %d seconds"
+
+  color = "#b8b8b8"
+  font = "Noto Sans Regular 22"
+}
