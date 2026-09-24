@@ -1,6 +1,6 @@
 # LOQ 15ARP10E GRUB theme
 
-A minimalistic GRUB theme for the Lenovo LOQ 15ARP10E, tuned for its **1920x1080 (FHD)** display.
+A GRUB theme for the Lenovo LOQ 15ARP10E, tuned for its **1920x1080 (FHD)** display.
 
 ![Preview of the LOQ 15ARP10E GRUB theme](assets/preview.png)
 
